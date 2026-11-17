@@ -1,5 +1,6 @@
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
+  --page: #ffffff;
   --ink: #182334;
   --muted: #4f5a6b;
   --link: #225a9e;
@@ -7,8 +8,18 @@
   --sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page: #111820;
+    --ink: #e6edf5;
+    --muted: #b4c0cf;
+    --link: #91c5ff;
+    --line: #344151;
+  }
+}
+
 * { box-sizing: border-box; }
-body { margin: 0; color: var(--ink); background: #fff; font: 16px/1.6 var(--sans); }
+body { margin: 0; color: var(--ink); background: var(--page); font: 16px/1.6 var(--sans); }
 p, h1, h2, h3 { margin: 0; }
 a { color: var(--link); text-underline-offset: .2em; }
 a:hover { color: var(--ink); }
