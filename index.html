@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kunhang Lv, Ph.D. student at UCAS and ISCAS. Research in automated reasoning, SMT, and LLM-guided solving.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Kunhang Lv — Academic Homepage</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="profile">
+      <div>
+        <h1>Kunhang Lv</h1>
+        <p>I am a Ph.D. student in the Laboratory of Parallel Software and Computational Science at the Institute of Software, Chinese Academy of Sciences (ISCAS). I am a member of the <a href="https://square16.org/">SQuARE Group</a> and am advised by <a href="https://square16.org/en/members/feifei-ma/">Prof. Feifei Ma</a> and <a href="https://square16.org/en/members/jian-zhang/">Prof. Jian Zhang</a>.</p>
+        <p>My research is in automated reasoning, with a focus on SMT solving for quantified formulas and nonlinear arithmetic. I also study how large language models can guide SMT solvers.</p>
+        <ul class="profile-links" role="list" aria-label="Contact and profiles">
+          <li><a href="mailto:kylelv2000@gmail.com">Email</a></li>
+          <li><a href="https://scholar.google.com/citations?user=lgd8e9sAAAAJ">Google Scholar</a></li>
+          <li><a href="https://github.com/kylelv2000">GitHub</a></li>
+        </ul>
+      </div>
+      <!-- Optional: add an img with class="avatar" here when an avatar is ready. -->
+    </header>
+
+    <main>
+      <section id="education" class="section" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <ul class="timeline" role="list">
+          <li>
+            <div>
+              <strong>University of Chinese Academy of Sciences (UCAS)</strong>
+              <small>Ph.D. student, Laboratory of Parallel Software and Computational Science</small>
+              <small>Institute of Software, Chinese Academy of Sciences (ISCAS)</small>
+            </div>
+            <span class="year">2023–present</span>
+          </li>
+          <li>
+            <div>
+              <strong>Peking University (PKU)</strong>
+              <small>Undergraduate studies, School of Electronics Engineering and Computer Science</small>
+            </div>
+            <span class="year">2019–2023</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="publications" class="section" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
+        <ul class="papers" role="list">
+          <li>
+            <article class="paper">
+              <a class="paper-figure" href="figures/linguaarray.png" aria-label="View the LinguaArray paper figure at full size">
+                <img src="figures/linguaarray.png" width="1054" height="404" alt="LinguaArray overview from Figure 1, showing the SAT and UNSAT branches and their shared SMT solver.">
+              </a>
+              <div>
+                <h3>Verifiable LLM-Guided Focal SMT Solving for Quantified Arrays</h3>
+                <p class="authors"><strong>Kunhang Lv</strong>, Rui Han, Fuqi Jia, Yuhang Dong, Feifei Ma, Jian Zhang</p>
+                <p class="venue">NeurIPS 2026</p>
+                <p class="description">We use a language model to propose ground terms and constraints for quantified array formulas, leaving the satisfiability checks to an SMT solver.</p>
+                <ul class="paper-links" role="list" aria-label="LinguaArray resources">
+                  <li><a href="https://arxiv.org/abs/2610.39435">Paper</a></li>
+                  <li><a href="https://github.com/kylelv2000/LinguaArray">Code</a></li>
+                </ul>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="paper">
+              <a class="paper-figure" href="figures/aquaforte.png" aria-label="View the AquaForte paper figure at full size">
+                <img src="figures/aquaforte.png" width="1136" height="466" alt="AquaForte overview from Figure 1, showing preprocessing, prompt construction, and solver verification.">
+              </a>
+              <div>
+                <h3>LLM-Guided Quantified SMT Solving over Uninterpreted Functions</h3>
+                <p class="authors"><strong>Kunhang Lv</strong>, Yuhang Dong, Rui Han, Fuqi Jia, Feifei Ma, Jian Zhang</p>
+                <p class="venue">AAAI 2026</p>
+                <p class="description">AquaForte uses a language model to propose definitions for uninterpreted functions and learns exclusion clauses when the SMT solver rules out those definitions.</p>
+                <ul class="paper-links" role="list" aria-label="AquaForte resources">
+                  <li><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38445">Paper</a></li>
+                  <li><a href="https://github.com/kylelv2000/Aqua-Forte">Code</a></li>
+                </ul>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="paper">
+              <a class="paper-figure" href="figures/rigor.png" aria-label="View the RIGOR paper figure at full size">
+                <img src="figures/rigor.png" width="1213" height="532" loading="lazy" alt="RIGOR overview from Figure 2, showing the reasoning system and the construction of GSN-15K.">
+              </a>
+              <div>
+                <h3>RIGOR: Atomic Semantic Normalization and Declarative Constraint Reasoning for Geometry Problem Solving</h3>
+                <p class="authors">Yuhang Dong, Weijie Yu, Ziheng Wang, <strong>Kunhang Lv</strong>, Rui Han, Fuqi Jia, Minghao Yin, Feifei Ma</p>
+                <p class="venue">EMNLP 2026</p>
+                <p class="description">RIGOR breaks geometry descriptions into atomic statements and uses constraint entailment to derive answers and reconstruct the reasoning.</p>
+                <ul class="paper-links" role="list" aria-label="RIGOR resources">
+                  <li><a href="https://aclanthology.org/2026.emnlp-main.1385/">Paper</a></li>
+                </ul>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="paper">
+              <div class="paper-figure">
+                <img src="figures/nrago.png" width="520" height="320" loading="lazy" alt="Illustration of gradient search alongside an algebraic solver.">
+              </div>
+              <div>
+                <h3>NRAgo: Solving SMT(NRA) Formulas with Gradient-Based Optimization</h3>
+                <p class="authors">Minghao Liu*, <strong>Kunhang Lv*</strong>, Pei Huang, Rui Han, Fuqi Jia, Yu Zhang, Feifei Ma, Jian Zhang</p>
+                <p class="venue">ASE 2023 <span class="track">· Tool Demonstrations</span> <span class="contribution">· * Equal contribution</span></p>
+                <p class="description">We combine gradient-based search for satisfying assignments with a complete algebraic solver for nonlinear real arithmetic.</p>
+                <ul class="paper-links" role="list" aria-label="NRAgo resources">
+                  <li><a href="https://doi.org/10.1109/ASE56229.2023.00013">Paper</a></li>
+                  <li><a href="https://github.com/minghao-liu/NRAgo">Code</a></li>
+                </ul>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section id="honors" class="section" aria-labelledby="honors-title">
+        <h2 id="honors-title">Honors and Awards</h2>
+        <ul class="timeline" role="list">
+          <li><span><strong>Second Prize</strong>, Huawei Code Craft (Beijing, Tianjin and Northeast China Division)</span><time class="year" datetime="2025">2025</time></li>
+          <li><span><strong>Third Prize</strong>, 21st Peking University Collegiate Programming Contest</span><time class="year" datetime="2023">2023</time></li>
+          <li><span><strong>Tianchuang Scholarship</strong>, School of Electronics Engineering and Computer Science, Peking University</span><time class="year" datetime="2022">2022</time></li>
+          <li><span><strong>First Prize (Individual)</strong>, National Finals of the Group Programming Ladder Tournament</span><time class="year" datetime="2021">2021</time></li>
+          <li><span><strong>Third Prize</strong>, Problem Setting Competition, 19th Peking University Collegiate Programming Contest</span><time class="year" datetime="2021">2021</time></li>
+          <li><span><strong>Gold Medal</strong>, Asia-Pacific Informatics Olympiad (APIO), China Division</span><time class="year" datetime="2018">2018</time></li>
+          <li><span><strong>Bronze Medal</strong>, National Olympiad in Informatics (NOI)</span><time class="year" datetime="2018">2018</time></li>
+        </ul>
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>
